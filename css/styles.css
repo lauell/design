@@ -11,6 +11,16 @@ h1 {
   font-size: 8rem;
 }
 
+.page-headings {
+  font-weight: 100;
+font-size: 4rem;
+  color: #892cDC;
+}
+
+.homepagesub {
+  width: 55%;
+}
+
 h2 {
 font-family: 'Amatic SC', cursive;
 margin: 1rem;
@@ -25,22 +35,102 @@ p {
   text-align: center;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.bodytext {
+  font-weight: lighter;
+  font-size: 2rem;
+  width: 40%;
+  padding-top: 100px;
+  margin-left: 30px;
+}
+
+.secondbodytext {
+  font-weight: lighter;
+  font-size: 2rem;
+  width: 50%;
+  padding: 50px 50px;
+  margin: 0 0 10% 50%;
+}
+
+.thirdbodytext{
+  color: black;
+  font-size: 2rem;
+  width: 40%;
+  padding-top: 80px;
+  margin-left: 30px;
+}
+
+.purpletext{
+  color: #892CDC;
+}
+
+.whitebackground {
+  background-color: white;
+  padding: 60px;
+  width: 100%;
+  margin: 0;
+}
 
 .container {
   border-bottom: 50px;
 }
 
 
+/* About */
+.intro {
+  font-weight: lighter;
+  font-size: 2rem;
+  width: 40%;
+  margin-top: 10%;
+  padding-top: 30px;
+
+}
+
+.blurb{
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 13%;
+
+}
+
+.aboutbutton {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 10%;
+  background-color: #222831;
+  border-radius: 20px;
+  border: 2px solid white;
+  padding: 16px;
+}
+
+
 .contact{
+  background-color: #222831;
   text-align: center;
   color: #892CDC;
+  border-radius: 50px;
+  border: 2px solid #F1FA3C;
 
+}
+
+.contactbox {
+  color: #F6F5F1;
+  text-align: center;
+  margin: auto;
+  width: 25%;
 }
 
 
 .btn-dark:hover{
+  text-decoration: none;
  background-color: #F1FA3C;
  color: #892CDC;
+
  }
 
 /* Nav bar */
